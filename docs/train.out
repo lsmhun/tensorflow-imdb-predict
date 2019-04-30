@@ -1,0 +1,49 @@
+get_model()
+Model file: ./models/simple_text_imdb.h5
+Model File doesn't exist
+train_save__model()
+download_data()
+2019-04-28 18:36:21.658768: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-04-28 18:36:21.698581: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2000160000 Hz
+2019-04-28 18:36:21.699127: I tensorflow/compiler/xla/service/service.cc:162] XLA service 0x3c2c240 executing computations on platform Host. Devices:
+2019-04-28 18:36:21.699169: I tensorflow/compiler/xla/service/service.cc:169]   StreamExecutor device (0): <undefined>, <undefined>
+create_model(...)
+Epoch 1/10
+1042/1042 [==============================] - 2742s 3s/step - loss: 0.5835 - accuracy: 0.6736 - val_loss: 0.0000e+00 - val_accuracy: 0.0000e+00
+Epoch 2/10
+1042/1042 [==============================] - 2741s 3s/step - loss: 0.6219 - accuracy: 0.6560 - val_loss: 0.6308 - val_accuracy: 0.6343
+Epoch 3/10
+1042/1042 [==============================] - 2742s 3s/step - loss: 0.5551 - accuracy: 0.7202 - val_loss: 0.5810 - val_accuracy: 0.6744
+Epoch 4/10
+1042/1042 [==============================] - 2752s 3s/step - loss: 0.4017 - accuracy: 0.8214 - val_loss: 0.4495 - val_accuracy: 0.7947
+Epoch 5/10
+1042/1042 [==============================] - 2736s 3s/step - loss: 0.2670 - accuracy: 0.8956 - val_loss: 0.3976 - val_accuracy: 0.8388
+Epoch 6/10
+1042/1042 [==============================] - 2742s 3s/step - loss: 0.2096 - accuracy: 0.9229 - val_loss: 0.3580 - val_accuracy: 0.8602
+Epoch 7/10
+1042/1042 [==============================] - 2784s 3s/step - loss: 0.1587 - accuracy: 0.9445 - val_loss: 0.3933 - val_accuracy: 0.8604
+Epoch 8/10
+1042/1042 [==============================] - 2740s 3s/step - loss: 0.1243 - accuracy: 0.9587 - val_loss: 0.4304 - val_accuracy: 0.8556
+Epoch 9/10
+1042/1042 [==============================] - 2726s 3s/step - loss: 0.0913 - accuracy: 0.9719 - val_loss: 0.4525 - val_accuracy: 0.8604
+Epoch 10/10
+1042/1042 [==============================] - 2706s 3s/step - loss: 0.2490 - accuracy: 0.8978 - val_loss: 0.4414 - val_accuracy: 0.8546
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding (Embedding)        (None, None, 64)          523840    
+_________________________________________________________________
+bidirectional (Bidirectional (None, 128)               66048     
+_________________________________________________________________
+dense (Dense)                (None, 64)                8256      
+_________________________________________________________________
+dense_1 (Dense)              (None, 1)                 65        
+=================================================================
+Total params: 598,209
+Trainable params: 598,209
+Non-trainable params: 0
+_________________________________________________________________
+save_model
+get_model()
+Model file: ./models/simple_text_imdb.h5

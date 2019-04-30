@@ -1,0 +1,10 @@
+.pytest_cache
+.idea
+.scannerwork
+venv
+pylint-report.txt
+.DS_Store
+__pycache__
+.coverage
+coverage.xml
+*.egg-info
