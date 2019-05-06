@@ -1,6 +1,7 @@
 [run]
 branch = True
 source = lsmhun
+include = lsmhun/*
 
 [report]
 exclude_lines =
