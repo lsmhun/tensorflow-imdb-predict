@@ -13,7 +13,7 @@ install:
 
 # Run the unit test
 script:
-  - pytest --cov=./ 
+  - pytest --cov=lsmhun 
 
 # Push the results back to codecov
 after_success:
