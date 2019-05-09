@@ -144,7 +144,8 @@
                 },
                 commentPredict2: function() {
                     this.loading = true;
-                    axios.post('http://127.0.0.1:5000/imdb_result', {
+                    var url = window.location.origin;
+                    axios.post(url + '/imdb_result', {
                             comment: this.comment
                         })
                         .then(response => {

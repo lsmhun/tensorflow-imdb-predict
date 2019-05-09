@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3
 from flask import render_template, request, jsonify
 #import numpy as np
 from lsmhun import APP
@@ -21,4 +22,4 @@ def result():
         return jsonify(result_value[0][0].item())
 
 if __name__ == '__main__':
-    APP.run(debug=True)
+    APP.run(debug=True, host='0.0.0.0')
