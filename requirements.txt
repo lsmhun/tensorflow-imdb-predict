@@ -5,7 +5,7 @@ pytest-cov==2.6.0
 codecov==2.0.15
 flask==1.0.2
 h5py==2.9.0
-pyyaml ==5.1.0
+pyyaml ==5.4
 tensorflow==2.0.0-alpha0
 #tensorflow-gpu==2.0.0-alpha0
 tensorflow-datasets==1.0.1
