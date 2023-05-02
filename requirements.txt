@@ -3,7 +3,7 @@ pylint==2.8.2
 pytest==6.2.4
 pytest-cov==2.11.1
 codecov==2.1.11
-flask==1.1.2
+flask==2.3.2
 h5py==3.1.0
 pyyaml==5.4.1
 numpy==1.22.0
